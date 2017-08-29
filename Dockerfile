@@ -6,7 +6,7 @@ MAINTAINER EgoFelix <docker@egofelix.de>
 RUN apk --no-cache add \
     mariadb
 
-ADD run.sh /run.sh
+COPY run.sh /run.sh
 RUN chmod 755 /run.sh
 
 EXPOSE 3306

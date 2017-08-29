@@ -36,4 +36,5 @@ EOF
 	rm -f $tfile
 fi
 
+echo "[i] Starting MySQL"
 exec /usr/bin/mysqld --user=mysql --console

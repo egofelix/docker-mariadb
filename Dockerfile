@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine
 
 MAINTAINER EgoFelix <docker@egofelix.de>
 

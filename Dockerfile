@@ -4,7 +4,7 @@ MAINTAINER EgoFelix <docker@egofelix.de>
 
 # Install mariadb
 RUN apk --no-cache add \
-    mariadb
+    mariadb mariadb-server-utils
 
 COPY run.sh /run.sh
 RUN chmod 755 /run.sh

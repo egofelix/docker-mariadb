@@ -37,4 +37,4 @@ EOF
 fi
 
 echo "[i] Starting MySQL"
-exec /usr/bin/mysqld --user=root --console
+exec /usr/bin/mysqld --user=root --console --port=3306
